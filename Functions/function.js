@@ -1,6 +1,12 @@
-function add (a,b)
+function add (a)
     {
-        console.log(`${a} + ${b} = ${a+b}`)
+        let x =0;
+        for (const i of a) 
+            {
+                x+=i;
+            }
+        console.log(`sum=${x}`)
     }
 
-add(112435,238294)
+add([1,2,3,4])
+add([100,23,24,124,12453,14354.43,434])
