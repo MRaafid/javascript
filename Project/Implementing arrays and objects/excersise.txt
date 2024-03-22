@@ -1,0 +1,18 @@
+﻿
+
+Menu:
+1. Add a book
+2. Remove a book
+3. Search for books by title
+4. Add a rating to a book
+5. Add a review to a book
+6. Compute the average rating of books
+7.Exit
+
+"The Great Gatsby" has been added to the collection. "To Kill a Mockingbird" has been added to the collection. "1984" has been added to the collection.
+"The Catcher in the Rye" has been added to the collection. Book with ID 2 not found in collection.
+Matching books:
+- The Catcher in the Rye by 3.D. Salinger (1951) undefined
+Book with ID 1 not found in collection.
+Bock with ID 1 not found in collection.
+No ratings found in collection. undefined
