@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inner html</title>
+</head>
+<body>
+    <h1>A</h1>
+    <h1>d</h1>
+    <h2 id="id">b</h2>
+    <p class="class">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, vel neces</p>
+    <script>
+        document.getElementById("id").innerHTML = 'welcome'
+        // document.getElementsByTagName("h1").innerHTML = 'Hello user';
+        // document.getElementsByClassName("class").innerHTML ='have a good day'
+        // the above 2 will not work because inner html will apply onle for one
+        // since id is unique and has no repeation's it will work
+        // but we can have as many class or tags thus it will not work
+        // if u want to use it for class u will need to itterate it for all tags or class
+
+       // Modify content of <h1> elements
+        var h1Elements = document.getElementsByTagName("h1");
+        for (var i = 0; i < h1Elements.length; i++) 
+            {
+                h1Elements[i].innerHTML = 'Hello User';
+            }
+
+        // Modify content of <p> elements with class "class"
+        var pElements = document.getElementsByClassName("class");
+        for (var i = 0; i < pElements.length; i++) 
+            {
+                pElements[i].innerHTML ='have a good day';
+            }
+    </script>
+</body>
+</html>
