@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <label for="name" >Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <button onclick="d()">Submit</button>
+        <script>
+            function d()
+                {
+                    let userName = document.getElementById("name").value;
+                    // this will read the value of the input
+                    let h = document.createElement("h1");
+                    // create a element in this case h1 
+                    h.innerText = `Hello ${userName }!`;
+                    // add content to the created elemet
+                    document.getElementsByTagName("body")[0].appendChild(h);
+                    //add the elemet as a child of body i.e add the created element inside the body
+                    // [0]--> first body tag
+                }
+        </script>
+    </body>
+</html>
