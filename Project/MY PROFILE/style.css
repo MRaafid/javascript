@@ -1,0 +1,14 @@
+.mail
+    {
+        height: 30px;
+        width: 30px;
+    }
+#list
+    {
+        text-align: left;
+    }
+form
+    {
+        padding: 10px;
+        border: 1px solid black;
+    }
